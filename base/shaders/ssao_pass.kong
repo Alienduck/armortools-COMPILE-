@@ -1,0 +1,168 @@
+
+#[set(everything)]
+const constants: {
+	invP: float4x4;
+	P: float4x4;
+	V3: float3x3;
+	camera_proj: float2;
+};
+
+#[set(everything)]
+const sampler_linear: sampler;
+
+#[set(everything)]
+const gbufferD: tex2d;
+
+#[set(everything)]
+const gbuffer0: tex2d;
+
+const max_steps: float = 24;
+const ray_step: float = 0.0015;
+
+struct vert_in {
+	pos: float2;
+}
+
+struct vert_out {
+	pos: float4;
+	tex: float2;
+	view_ray: float3;
+}
+
+fun ssao_pass_vert(input: vert_in): vert_out {
+	var output: vert_out;
+	output.tex = input.pos.xy * 0.5 + 0.5;
+	output.tex.y = 1.0 - output.tex.y;
+
+	output.pos = float4(input.pos.xy, 0.0, 1.0);
+
+	// NDC (at the back of cube)
+	var v: float4 = float4(input.pos.x, input.pos.y, 1.0, 1.0);
+	v = constants.invP * v;
+	output.view_ray = float3(v.xy / v.z, 1.0);
+
+	return output;
+}
+
+fun get_projected_coord(hit_coord: float3): float2 {
+	var projected_coord: float4 = constants.P * float4(hit_coord, 1.0);
+	projected_coord.xy = projected_coord.xy / projected_coord.w;
+	projected_coord.xy = projected_coord.xy * 0.5 + 0.5;
+	projected_coord.y = 1.0 - projected_coord.y;
+	return projected_coord.xy;
+}
+
+fun get_pos_view(view_ray: float3, depth: float): float3 {
+	var linear_depth: float = constants.camera_proj.y / (constants.camera_proj.x - depth);
+	return view_ray * linear_depth;
+}
+
+fun get_delta_depth(view_ray: float3, hit_coord: float3): float {
+	var coord: float2 = get_projected_coord(hit_coord);
+	if (coord.x < 0.0 || coord.x > 1.0 || coord.y < 0.0 || coord.y > 1.0) {
+		return 1000.0;
+	}
+	var depth: float = sample_lod(gbufferD, sampler_linear, coord, 0.0).r * 2.0 - 1.0;
+	var p: float3 = get_pos_view(view_ray, depth);
+	return p.z - hit_coord.z;
+}
+
+fun ray_cast(view_ray: float3, dir: float3, vpos: float3): float {
+	dir = dir * ray_step;
+	var hit_coord: float3 = vpos;
+	var dist: float = 0.15;
+
+	// for (var i: int = 0; i < max_steps; i = i + 1) {
+	var i: int = 0;
+	while (i < int(max_steps)) {
+		hit_coord += dir;
+		var delta: float = get_delta_depth(view_ray, hit_coord);
+		if (delta > 0.0 && delta < 0.2) {
+			dist = distance(vpos, hit_coord);
+			return dist;
+		}
+		if (distance(vpos, hit_coord) > 2.0) {
+			return dist;
+		}
+
+		//
+		i += 1;
+		//
+	}
+	return dist;
+}
+
+fun tangent(n: float3): float3 {
+	var t1: float3 = cross(n, float3(0.0, 0.0, 1.0));
+	var t2: float3 = cross(n, float3(0.0, 1.0, 0.0));
+	if (length(t1) > length(t2)) {
+		return normalize(t1);
+	}
+	return normalize(t2);
+}
+
+fun octahedron_wrap(v: float2): float2 {
+	var a: float2;
+	if (v.x >= 0.0) {
+		a.x = 1.0;
+	}
+	else {
+		a.x = -1.0;
+	}
+
+	if (v.y >= 0.0) {
+		a.y = 1.0;
+	}
+	else {
+		a.y = -1.0;
+	}
+
+	var r: float2;
+	r.x = abs(v.y);
+	r.y = abs(v.x);
+	r.x = 1.0 - r.x;
+	r.y = 1.0 - r.y;
+	return r * a;
+
+	// return (1.0 - abs(v.yx)) * (float2(v.x >= 0.0 ? 1.0 : -1.0, v.y >= 0.0 ? 1.0 : -1.0));
+}
+
+fun ssao_pass_frag(input: vert_out): float {
+	var g0: float4 = sample_lod(gbuffer0, sampler_linear, input.tex, 0.0);
+	var d: float = sample_lod(gbufferD, sampler_linear, input.tex, 0.0).r * 2.0 - 1.0;
+
+	var enc: float2 = g0.rg;
+	var n: float3;
+	n.z = 1.0 - abs(enc.x) - abs(enc.y);
+	if (n.z >= 0.0) {
+		//n.xy = enc.xy;
+		n.x = enc.x;
+		n.y = enc.y;
+	}
+	else {
+		//n.xy = octahedron_wrap(enc.xy);
+		var f2: float2 = octahedron_wrap(enc.xy);
+		n.x = f2.x;
+		n.y = f2.y;
+	}
+	n = normalize(constants.V3 * n);
+
+	var vpos: float3 = get_pos_view(input.view_ray, d);
+	var o1: float3 = tangent(n);
+	var o2: float3 = cross(o1, n);
+	var c1: float3 = 0.5 * (o1 + o2);
+	var c2: float3 = 0.5 * (o1 - o2);
+
+	var col: float = ray_cast(input.view_ray, n, vpos);
+	col += ray_cast(input.view_ray, lerp3(n, o1, 0.5), vpos);
+	col += ray_cast(input.view_ray, lerp3(n, o2, 0.5), vpos);
+	col += ray_cast(input.view_ray, lerp3(n, -c1, 0.5), vpos);
+	col += ray_cast(input.view_ray, lerp3(n, -c2, 0.5), vpos);
+	return col;
+}
+
+#[pipe]
+struct pipe {
+	vertex = ssao_pass_vert;
+	fragment = ssao_pass_frag;
+}
