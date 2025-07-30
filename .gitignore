@@ -1,8 +1,0 @@
-**/build*/
-.vscode
-*.DS_Store
-*.blend1
-armorlab/assets/models/*.onnx
-armorlab/assets/models/*.json
-armorlab/assets/models/*.txt
-armorlab/assets/models/*.zip
