@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base">
+			<UniqueIdentifier>{1985BAFD-C660-4000-84B4-5A2F77F9FA00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools">
+			<UniqueIdentifier>{1985BAFD-C660-4000-8E0D-81B0C7A69D00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents">
+			<UniqueIdentifier>{1985BAFD-C660-4000-87AD-6A8E0D482A00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui">
+			<UniqueIdentifier>{1985BAFD-C660-4000-89D6-B3DA37866100}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users">
+			<UniqueIdentifier>{1985BAFD-C660-4000-8586-146353E97500}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:">
+			<UniqueIdentifier>{1985BAFD-C660-4000-8387-8321DD0B9D00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\sources">
+			<UniqueIdentifier>{1985BAFD-C660-4000-821E-BCD11EDE0F00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\sources\backends">
+			<UniqueIdentifier>{1985BAFD-C660-4000-8DD2-4A1A05A12700}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\sources\libs">
+			<UniqueIdentifier>{1985BAFD-C660-4000-8781-D5D3B1F80100}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\sources\libs\kong">
+			<UniqueIdentifier>{1985BAFD-C660-4000-8A78-924CDF0C2B00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends">
+			<UniqueIdentifier>{1985BAFD-C670-4000-85DB-D62CC5B55800}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\sources\libs\kong\libs">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8AF2-FFF91E318300}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8240-23545328D700}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins">
+			<UniqueIdentifier>{1985BAFD-C670-4000-804A-5FD9A74E0500}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_fbx">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8B03-C4C48FF66600}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_fbx\ufbx">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8240-3EF055198000}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_gltf">
+			<UniqueIdentifier>{1985BAFD-C670-4000-81A8-3A01C2787700}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_svg">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8783-6084F2930100}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8A34-D4167C61AA00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8534-F26659E45000}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz\external">
+			<UniqueIdentifier>{1985BAFD-C670-4000-8C46-9ECA73DC3800}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz\pxrLZ4">
+			<UniqueIdentifier>{1985BAFD-C670-4000-87FC-F561D4F93C00}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\armorpaint\plugins\proc_xatlas">
+			<UniqueIdentifier>{1985BAFD-C670-4000-87D4-5AC17CA66800}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="C:\Users\oneui\Documents\armortools\base\plugins">
+			<UniqueIdentifier>{1985BAFD-C670-4000-885E-DAFF4558DE00}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.h">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.h">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_thread.h">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/ufbx/ufbx.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_fbx\ufbx</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_gltf</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_svg/nanosvg.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_svg</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_svg/nanosvgrast.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_svg</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/integerCoding.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/external/stb_image.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz\external</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz\pxrLZ4</Filter>
+		</ClInclude>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.h">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\proc_xatlas</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/const_data.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_armpack.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_array.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_audio.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_draw.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_file.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_gc.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_gpu.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_json.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_map.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_mat3.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_mat4.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_math.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_obj.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_quat.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_string.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_system.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_vec2.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_vec3.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_vec4.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_net.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_thread.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/asim.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/gc.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/analyzer.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/compiler.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/dir.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/disasm.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/errors.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/functions.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/globals.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/kong.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/log.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/names.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/parser.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/sets.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/tokenizer.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/transformer.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/typer.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/types.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cpu.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cstyle.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/d3d11.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/glsl.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/hlsl.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/metal.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/util.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/libs/stb_ds.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\sources\libs\kong\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/plugins.c">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/io_fbx.c">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_fbx</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/ufbx/ufbx.c">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_fbx\ufbx</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_gltf</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_svg/nanosvg.c">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_svg</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/io_usd.cc">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/integerCoding.cpp">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/lz4-compression.cc">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/tinyusdz.cc">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\io_usd\tinyusdz\pxrLZ4</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.cpp">
+			<Filter>C:\Users\oneui\Documents\armortools\armorpaint\plugins\proc_xatlas</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/plugins/plugins.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\plugins</Filter>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c">
+			<Filter>C:\Users\oneui\Documents\armortools\base\plugins</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+</Project>

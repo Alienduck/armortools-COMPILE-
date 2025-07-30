@@ -1,0 +1,420 @@
+﻿  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron_gpu.c:1:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_gpu.h:10:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron_draw.c:1:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_draw.h:11:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_gpu.h:10:
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(76,13): warning : incompatible pointer types initializing 'int32_t *' (aka 'int *') with an expression of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(77,25): warning : incompatible pointer types passing 'any_map_t *' (aka 'struct any_map *') to parameter of type 'i32_map_t *' (aka 'struct i32_map *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources\iron_map.h(25,32): note: passing argument to parameter 'm' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(86,9): warning : incompatible pointer types passing 'i32_map_t *' (aka 'struct i32_map *') to parameter of type 'any_map_t *' (aka 'struct any_map *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(51,31): note: passing argument to parameter 'm' here
+C:/Users/oneui/Documents/armortools/base/sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(87,23): warning : incompatible pointer types passing 'i32_map_t *' (aka 'struct i32_map *') to parameter of type 'any_map_t *' (aka 'struct any_map *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(16,36): note: passing argument to parameter 'm' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(93,9): warning : incompatible pointer types passing 'f32_map_t *' (aka 'struct f32_map *') to parameter of type 'any_map_t *' (aka 'struct any_map *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(51,31): note: passing argument to parameter 'm' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(94,23): warning : incompatible pointer types passing 'f32_map_t *' (aka 'struct f32_map *') to parameter of type 'any_map_t *' (aka 'struct any_map *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(16,36): note: passing argument to parameter 'm' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(154,9): warning : incompatible pointer types returning 'char_ptr_array_t *' (aka 'struct char_ptr_array *') from a function with result type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/iron_map.c(216,16): warning : incompatible pointer types passing 'i32_array_t *' (aka 'struct i32_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources\iron_array.h(88,32): note: passing argument to parameter 'ar' here
+C:/Users/oneui/Documents/armortools/base/sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+C:/Users/oneui/Documents/armortools/base/sources/iron_armpack.c(341,13): warning : unused variable 'flag' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_armpack.c(362,13): warning : unused variable 'flag' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_armpack.c(29,13): warning : unused function 'store_i16' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(39,26): warning : passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  C:/Users/oneui/Documents/armortools/base/sources\iron_gc.h(9,31): note: passing argument to parameter 'length' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(134,22): warning : passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  C:/Users/oneui/Documents/armortools/base/sources\iron_gc.h(9,31): note: passing argument to parameter 'length' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(140,22): warning : passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  C:/Users/oneui/Documents/armortools/base/sources\iron_gc.h(9,31): note: passing argument to parameter 'length' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(256,16): warning : incompatible pointer types passing 'char_ptr_array_t *' (aka 'struct char_ptr_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(190,32): note: passing argument to parameter 'ar' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(383,12): warning : assigning to 'uint8_t *' (aka 'unsigned char *') from 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+C:/Users/oneui/Documents/armortools/base/sources/iron_array.c(400,12): warning : incompatible pointer types assigning to 'float *' from 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/iron_string.c(59,35): warning : format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+C:/Users/oneui/Documents/armortools/base/sources/iron_string.c(61,20): warning : format specifies type 'long' but the argument has type 'int64_t' (aka 'long long') [-Wformat]
+C:/Users/oneui/Documents/armortools/base/sources/iron_string.c(66,35): warning : format specifies type 'unsigned long' but the argument has type 'uint64_t' (aka 'unsigned long long') [-Wformat]
+C:/Users/oneui/Documents/armortools/base/sources/iron_string.c(68,20): warning : format specifies type 'unsigned long' but the argument has type 'uint64_t' (aka 'unsigned long long') [-Wformat]
+C:/Users/oneui/Documents/armortools/base/sources/iron_string.c(265,11): warning : unused variable 'p' [-Wunused-variable]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c:1:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_ui.h:8:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_draw.h:11:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_gpu.h:10:
+C:/Users/oneui/Documents/armortools/base/sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c:1:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_ui_nodes.h:3:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_ui.h:8:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_draw.h:11:
+  In file included from C:/Users/oneui/Documents/armortools/base/sources\iron_gpu.h:10:
+C:/Users/oneui/Documents/armortools/base/sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+C:/Users/oneui/Documents/armortools/base/sources/iron_system.c(417,12): warning : unused variable 'preLockWindow' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(551,93): warning : pointer type mismatch ('float *' and 'char *') [-Wpointer-type-mismatch]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(553,31): warning : incompatible pointer types assigning to 'float *' from 'char *' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(554,40): warning : incompatible pointer types passing 'float *' to parameter of type 'const char *' [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(216,24): note: passing argument to parameter '_Str' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(669,21): warning : incompatible pointer types passing 'float *' to parameter of type 'const char *' [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(133,64): note: passing argument to parameter '_Source' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(671,31): warning : incompatible pointer types assigning to 'float *' from 'char *' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(445,8): warning : unused variable 'textw' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(845,24): warning : unused variable 'outs' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(957,22): warning : incompatible pointer types passing 'ui_node_link_array_t *' (aka 'struct ui_node_link_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(989,22): warning : incompatible pointer types passing 'ui_node_link_array_t *' (aka 'struct ui_node_link_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(910,22): warning : unused variable 'outs' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(1109,18): warning : incompatible pointer types passing 'ui_node_array_t *' (aka 'struct ui_node_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(1182,62): warning : incompatible pointer types passing 'u8_array_t *' (aka 'struct u8_array *') to parameter of type 'const char *' [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\string.h(216,24): note: passing argument to parameter '_Str' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(1182,44): warning : incompatible pointer types passing 'u8_array_t *' (aka 'struct u8_array *') to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(143,47): note: passing argument to parameter 'raw' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(1191,20): warning : incompatible pointer types passing 'ui_node_link_array_t *' (aka 'struct ui_node_link_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(1218,20): warning : incompatible pointer types passing 'ui_node_array_t *' (aka 'struct ui_node_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(131,20): warning : incompatible pointer types assigning to 'ui_handle_array_t *' (aka 'struct ui_handle_array *') from 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(135,18): warning : incompatible pointer types passing 'ui_handle_array_t *' (aka 'struct ui_handle_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c(1575,32): warning : passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  C:/Users/oneui/Documents/armortools/base/sources\iron_json.h(12,40): note: passing argument to parameter 'v' here
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(1822,7): warning : unused variable 'hover' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(3220,40): warning : '&&' within '||' [-Wlogical-op-parentheses]
+  C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(3220,40): note: place parentheses around the '&&' expression to silence this warning
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(22,14): warning : unused variable 'ui_copy_receiver' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c(23,12): warning : unused variable 'ui_copy_frame' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/gc.c(256,10): warning : unused variable 'freed_mem' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/analyzer.c(248,11): warning : variable 'last_base_texture_to' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/analyzer.c(946,13): warning : unused variable 'sampler_type' [-Wunused-variable]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron.c:1:
+  In file included from C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c:1:
+  In file included from ..\..\base\sources\iron.h:11:
+  In file included from ..\..\base\sources\iron_gpu.h:10:
+..\..\base\sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c:55:
+  In file included from ..\..\base\sources\iron_gpu.h:10:
+..\..\base\sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/functions.c(111,13): warning : unused function 'add_func_float3_float_float_float' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/kong.c(34,13): warning : unused function 'help' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/kong.c(38,13): warning : unused function 'read_file' [-Wunused-function]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron.c:1:
+  In file included from C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c:1:
+  In file included from ..\..\base\sources\iron.h:329:
+..\..\base\sources\libs\lz4x.h(171,41): warning : unused variable 'read_offset' [-Wunused-variable]
+..\..\base\sources\libs\lz4x.h(172,13): warning : unused variable 'write_offset' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(213,86): warning : incompatible pointer types passing 'struct ID3D12DescriptorHeap **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(216,97): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(220,48): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(247,97): warning : incompatible pointer types passing 'struct ID3D12DescriptorHeap **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(271,69): warning : incompatible pointer types passing 'ID3D12Device **' (aka 'struct ID3D12Device **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\d3d12.h(28651,29): note: passing argument to parameter 'ppDevice' here
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(316,168): warning : incompatible pointer types passing 'ID3D12RootSignature **' (aka 'struct ID3D12RootSignature **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(323,83): warning : incompatible pointer types passing 'ID3D12CommandQueue **' (aka 'struct ID3D12CommandQueue **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(339,41): warning : incompatible pointer types passing 'IDXGIFactory4 **' (aka 'struct IDXGIFactory4 **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\dxgi.h(2296,68): note: passing argument to parameter 'ppFactory' here
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(344,82): warning : incompatible pointer types passing 'ID3D12Fence **' (aka 'struct ID3D12Fence **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(353,86): warning : incompatible pointer types passing 'struct ID3D12DescriptorHeap **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(355,110): warning : incompatible pointer types passing 'struct ID3D12CommandAllocator **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(356,128): warning : incompatible pointer types passing 'struct ID3D12GraphicsCommandList **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(618,34): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(750,36): warning : initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+  C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(744,36): note: previous initialization is here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(75,29): note: expanded from macro 'TRUE'
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(751,39): warning : initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+  C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(745,39): note: previous initialization is here
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(752,34): warning : initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+  C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(746,34): note: previous initialization is here
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(753,38): warning : initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\lib\clang\19\include\stdbool.h(26,15): note: expanded from macro 'false'
+  C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(747,38): note: previous initialization is here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(71,29): note: expanded from macro 'FALSE'
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(754,16): warning : initializer overrides prior initialization of this subobject [-Winitializer-overrides]
+  C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(728,16): note: previous initialization is here
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(783,90): warning : incompatible pointer types passing 'struct ID3D12PipelineState **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(829,74): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(868,66): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(885,97): warning : incompatible pointer types passing 'struct ID3D12DescriptorHeap **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(980,33): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1031,168): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1087,65): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1172,97): warning : incompatible pointer types passing 'ID3D12DescriptorHeap **' (aka 'struct ID3D12DescriptorHeap **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1179,61): warning : incompatible pointer types passing 'ID3D12Device5 **' (aka 'struct ID3D12Device5 **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1183,87): warning : incompatible pointer types passing 'ID3D12GraphicsCommandList4 **' (aka 'struct ID3D12GraphicsCommandList4 **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1319,11): warning : incompatible pointer types passing 'ID3D12RootSignature **' (aka 'struct ID3D12RootSignature **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1370,95): warning : incompatible pointer types passing 'struct ID3D12StateObject **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1375,112): warning : incompatible pointer types passing 'ID3D12StateObjectProperties **' (aka 'struct ID3D12StateObjectProperties **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1404,32): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1446,34): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1480,34): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1497,77): warning : incompatible pointer types passing 'D3D12_CPU_DESCRIPTOR_HANDLE *' (aka 'struct D3D12_CPU_DESCRIPTOR_HANDLE *') to parameter of type 'D3D12_GPU_DESCRIPTOR_HANDLE *' (aka 'struct D3D12_GPU_DESCRIPTOR_HANDLE *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1535,77): warning : incompatible pointer types passing 'D3D12_CPU_DESCRIPTOR_HANDLE *' (aka 'struct D3D12_CPU_DESCRIPTOR_HANDLE *') to parameter of type 'D3D12_GPU_DESCRIPTOR_HANDLE *' (aka 'struct D3D12_GPU_DESCRIPTOR_HANDLE *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1567,77): warning : incompatible pointer types passing 'D3D12_CPU_DESCRIPTOR_HANDLE *' (aka 'struct D3D12_CPU_DESCRIPTOR_HANDLE *') to parameter of type 'D3D12_GPU_DESCRIPTOR_HANDLE *' (aka 'struct D3D12_GPU_DESCRIPTOR_HANDLE *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1721,45): warning : incompatible pointer types passing 'ID3D12Device5 *' (aka 'struct ID3D12Device5 *') to parameter of type 'ID3D12Device *' (aka 'struct ID3D12Device *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1722,36): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1748,43): warning : incompatible pointer types passing 'ID3D12Device5 *' (aka 'struct ID3D12Device5 *') to parameter of type 'ID3D12Device *' (aka 'struct ID3D12Device *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1749,34): warning : incompatible pointer types passing 'ID3D12Resource **' (aka 'struct ID3D12Resource **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1788,34): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1811,33): warning : incompatible pointer types passing 'ID3D12Resource **' (aka 'struct ID3D12Resource **') to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cpu.c(617,11): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cpu.c(722,13): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cstyle.c(61,9): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cstyle.c(99,9): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(928,31): warning : incompatible pointer types passing 'IFileOpenDialog *' (aka 'struct IFileOpenDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(673,53): note: passing argument to parameter 'fileOpenDialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(934,27): warning : incompatible pointer types passing 'IFileOpenDialog *' (aka 'struct IFileOpenDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(865,49): note: passing argument to parameter 'dialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(1019,31): warning : incompatible pointer types passing 'IFileOpenDialog *' (aka 'struct IFileOpenDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(673,53): note: passing argument to parameter 'fileOpenDialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(1025,27): warning : incompatible pointer types passing 'IFileOpenDialog *' (aka 'struct IFileOpenDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(865,49): note: passing argument to parameter 'dialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(1112,31): warning : incompatible pointer types passing 'IFileSaveDialog *' (aka 'struct IFileSaveDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(673,53): note: passing argument to parameter 'fileOpenDialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(1118,27): warning : incompatible pointer types passing 'IFileSaveDialog *' (aka 'struct IFileSaveDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(865,49): note: passing argument to parameter 'dialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(1200,24): warning : incompatible pointer types passing 'IFileOpenDialog *' (aka 'struct IFileOpenDialog *') to parameter of type 'IFileDialog *' (aka 'struct IFileDialog *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c(865,49): note: passing argument to parameter 'dialog' here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/glsl.c(365,11): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/glsl.c(585,6): warning : unused variable 'cbuffer_index' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/glsl.c(586,6): warning : unused variable 'texture_index' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/glsl.c(587,6): warning : unused variable 'sampler_index' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(17637,19): warning : variable 'proto_depth' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(17986,10): warning : variable 'atom1_is_integer' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(17986,28): warning : variable 'atom2_is_integer' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/hlsl.c(2071,18): warning : unused variable 'context' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/metal.c(563,11): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/metal.c(43,13): warning : unused function 'write_code' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(1931,16): warning : variable 'found' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(1979,12): warning : variable 'found' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2066,10): warning : unused variable 'func_name' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2648,12): warning : variable 'found' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3016,13): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3023,48): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(417,21): note: expanded from macro 'hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(566,38): note: expanded from macro 'stbds_hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3016,9): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3008,4): note: variable 'result' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2991,13): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2998,48): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(417,21): note: expanded from macro 'hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(566,38): note: expanded from macro 'stbds_hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2991,9): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2983,4): note: variable 'result' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2966,13): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2973,48): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(417,21): note: expanded from macro 'hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(566,38): note: expanded from macro 'stbds_hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2966,9): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2958,4): note: variable 'result' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2941,13): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2948,48): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(417,21): note: expanded from macro 'hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends\../libs/stb_ds.h(566,38): note: expanded from macro 'stbds_hmput'
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2941,9): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2933,4): note: variable 'result' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2869,15): warning : variable 'spirv_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2879,58): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2869,11): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2862,6): note: variable 'spirv_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2845,4): warning : variable 'result' is used uninitialized whenever switch default is taken [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2850,91): note: uninitialized use occurs here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2832,14): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2850,91): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2832,10): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2823,14): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2850,91): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2823,10): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2816,4): note: variable 'result' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2729,15): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2734,43): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2729,11): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2722,16): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2734,43): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2722,12): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2714,16): warning : variable 'result' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2734,43): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2714,12): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2701,5): note: variable 'result' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2123,15): warning : variable 'image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2133,58): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2123,11): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2114,9): warning : variable 'image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2133,58): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2114,5): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2111,5): note: variable 'image_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2123,15): warning : variable 'sampled_image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2135,67): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2123,11): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2114,9): warning : variable 'sampled_image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2135,67): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2114,5): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2112,5): note: variable 'sampled_image_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2083,15): warning : variable 'image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2093,58): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2083,11): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2074,9): warning : variable 'image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2093,58): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2074,5): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2071,5): note: variable 'image_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2083,15): warning : variable 'sampled_image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2095,67): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2083,11): note: remove the 'if' if its condition is always true
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2074,9): warning : variable 'sampled_image_type' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2095,67): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2074,5): note: remove the 'if' if its condition is always true
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(2072,5): note: variable 'sampled_image_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3523,10): warning : variable 'image_pointer_type' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3533,56): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3523,6): note: remove the 'if' if its condition is always false
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3521,6): note: variable 'image_pointer_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3500,10): warning : variable 'image_pointer_type' is used uninitialized whenever 'if' condition is true [-Wsometimes-uninitialized]
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3510,56): note: uninitialized use occurs here
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3500,6): note: remove the 'if' if its condition is always false
+  C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(3498,6): note: variable 'image_pointer_type' is declared here
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c(1538,17): warning : unused function 'write_op_image_read' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(218,6): warning : unused variable 'scale' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(1179,7): warning : unused variable 'hwnd' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(1700,42): warning : passing arguments to 'iron_windows_window_handle' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(1930,50): warning : passing arguments to 'iron_windows_window_handle' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(2030,24): warning : too many arguments in call to 'iron_window_destroy'
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(2030,22): warning : passing arguments to 'iron_window_destroy' without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(600,17): warning : unused variable 'r' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c(602,16): warning : unused function 'toUnicode' [-Wunused-function]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron.c:1:
+  In file included from C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c:1:
+..\..\base\sources\iron.h(1204,12): warning : variable 'texture_data' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  ..\..\base\sources\iron.h(1222,39): note: uninitialized use occurs here
+  ..\..\base\sources\iron.h(1204,8): note: remove the 'if' if its condition is always true
+  ..\..\base\sources\iron.h(1183,29): note: initialize the variable 'texture_data' to silence this warning
+..\..\base\sources\iron.h(1204,12): warning : variable 'texture_format' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+  ..\..\base\sources\iron.h(1222,68): note: uninitialized use occurs here
+  ..\..\base\sources\iron.h(1204,8): note: remove the 'if' if its condition is always true
+  ..\..\base\sources\iron.h(1184,2): note: variable 'texture_format' is declared here
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron.c:1:
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(887,32): warning : declaration of 'struct buffer' will not be visible outside of this function [-Wvisibility]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c(624,12): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c(677,12): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c(423,13): warning : unused function 'is_vertex_function' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c(432,13): warning : unused function 'is_fragment_function' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c(441,13): warning : unused function 'is_compute_function' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(66652,17): warning : variable 's' set but not used [-Wunused-but-set-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(5602,27): warning : comparison of different enumeration types ('iron_window_mode_t' and 'window_mode_t') [-Wenum-compare]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(7685,192): warning : implicit conversion from enumeration type 'window_mode_t' to different enumeration type 'iron_window_mode_t' [-Wenum-conversion]
+  ..\..\base\sources\iron_gc.h(6,83): note: expanded from macro 'GC_ALLOC_INIT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/util.c(92,44): warning : incompatible pointer types passing 'uint32_t *' (aka 'unsigned int *') to parameter of type 'LPDWORD' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\processthreadsapi.h(180,19): note: passing argument to parameter 'lpExitCode' here
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c(230,34): warning : incompatible pointer types passing 'float (*)[16]' to parameter of type 'cgltf_float *' (aka 'float *') [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf\cgltf.h(1555,70): note: passing argument to parameter 'out_matrix' here
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c(240,37): warning : incompatible pointer types passing 'float (*)[16]' to parameter of type 'float *' [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c(44,67): note: passing argument to parameter 'to_world' here
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c(240,41): warning : incompatible pointer types passing 'float (*)[3]' to parameter of type 'float *' [-Wincompatible-pointer-types]
+  C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c(44,84): note: passing argument to parameter 'scale' here
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron.c:1:
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(11550,60): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13041,34): warning : implicit conversion from enumeration type 'compare_mode_t' to different enumeration type 'gpu_compare_mode_t' (aka 'enum gpu_compare_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13042,33): warning : implicit conversion from enumeration type 'cull_mode_t' to different enumeration type 'gpu_cull_mode_t' (aka 'enum gpu_cull_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13044,56): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13045,56): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13063,42): warning : implicit conversion from enumeration type 'compare_mode_t' to different enumeration type 'gpu_compare_mode_t' (aka 'enum gpu_compare_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13064,41): warning : implicit conversion from enumeration type 'cull_mode_t' to different enumeration type 'gpu_cull_mode_t' (aka 'enum gpu_cull_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13066,64): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13311,15): warning : unused variable 'nodes' [-Wunused-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13433,9): warning : unused variable 'ui' [-Wunused-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(13434,15): warning : unused variable 'nodes' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(82544,9): warning : 'fdopen' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdio.h(2431,28): note: 'fdopen' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(82742,29): warning : 'fileno' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdio.h(2433,28): note: 'fileno' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83214,24): warning : 'open' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(517,24): note: 'open' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83225,24): warning : 'close' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(460,28): note: 'close' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83243,11): warning : 'lseek' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _lseek. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(504,28): note: 'lseek' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83273,28): warning : 'write' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(559,24): note: 'write' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83275,28): warning : 'read' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(524,9): note: 'read' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83285,29): warning : 'isatty' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _isatty. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(492,24): note: 'isatty' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(83408,19): warning : 'unlink' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt_io.h(554,9): note: 'unlink' has been explicitly marked deprecated here
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c(84061,24): warning : 'mkdir' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _mkdir. See online help for details. [-Wdeprecated-declarations]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\direct.h(114,20): note: 'mkdir' has been explicitly marked deprecated here
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1966,75): warning : incompatible pointer types passing 'struct ID3D12Resource **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\corecrt.h(428,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vcruntime.h(358,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1979,87): warning : incompatible pointer types passing 'struct ID3D12DescriptorHeap **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c(1990,98): warning : incompatible pointer types passing 'struct ID3D12DescriptorHeap **' to parameter of type 'void **' [-Wincompatible-pointer-types]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16545,49): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16556,50): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16567,51): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16578,51): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16637,30): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16638,35): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(16640,28): warning : implicit conversion from enumeration type 'compare_mode_t' to different enumeration type 'gpu_compare_mode_t' (aka 'enum gpu_compare_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(21035,9): warning : unused variable 'ui' [-Wunused-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(21163,18): warning : unused variable 'row' [-Wunused-variable]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/ufbx/ufbx.c(6058,59): warning : unused function 'ufbxi_progress' [-Wunused-function]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(21973,7): warning : unused variable 'decal' [-Wunused-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(22489,7): warning : unused variable 'decal' [-Wunused-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(25054,7): warning : variable 'num_nodes' set but not used [-Wunused-but-set-variable]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(25610,31): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(25611,36): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(27908,35): warning : implicit conversion from enumeration type 'compare_mode_t' to different enumeration type 'gpu_compare_mode_t' (aka 'enum gpu_compare_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(27909,57): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(29168,10): warning : implicit conversion from enumeration type 'vertex_data_t' to different enumeration type 'gpu_vertex_data_t' (aka 'enum gpu_vertex_data') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30921,33): warning : implicit conversion from enumeration type 'compare_mode_t' to different enumeration type 'gpu_compare_mode_t' (aka 'enum gpu_compare_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30922,32): warning : implicit conversion from enumeration type 'cull_mode_t' to different enumeration type 'gpu_cull_mode_t' (aka 'enum gpu_cull_mode') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30924,36): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30927,41): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30930,42): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30933,47): warning : implicit conversion from enumeration type 'blend_factor_t' to different enumeration type 'gpu_blending_factor_t' [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30958,57): warning : implicit conversion from enumeration type 'tex_format_t' to different enumeration type 'gpu_texture_format_t' (aka 'enum gpu_texture_format') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30965,113): warning : implicit conversion from enumeration type 'shader_type_t' to different enumeration type 'gpu_shader_type_t' (aka 'enum gpu_shader_type') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(30966,119): warning : implicit conversion from enumeration type 'shader_type_t' to different enumeration type 'gpu_shader_type_t' (aka 'enum gpu_shader_type') [-Wenum-conversion]
+C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c(36252,8): warning : unused variable 'decal' [-Wunused-variable]
+  In file included from C:/Users/oneui/Documents/armortools/base/sources/iron.c:1:
+  In file included from C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c:1:
+  In file included from ..\..\base\sources\iron.h:369:
+..\..\base\sources\libs\sinfl.h(194,1): warning : unused function 'sinfl_write64' [-Wunused-function]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.cpp(4758,9): warning : variable 'centroidx' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.cpp(4758,24): warning : variable 'centroidy' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.cpp(9094,11): warning : variable 'firstFaceIndex' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/tinyusdz.cc(3357,10): warning : variable 'sum' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/tinyusdz.cc(3629,8): warning : variable 'has_position' set but not used [-Wunused-but-set-variable]
+C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/tinyusdz.cc(4376,12): warning : variable 'valid' set but not used [-Wunused-but-set-variable]
+  In file included from C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c:3:
+  In file included from ..\..\base\sources\iron_ui.h:8:
+  In file included from ..\..\base\sources\iron_draw.h:11:
+  In file included from ..\..\base\sources\iron_gpu.h:10:
+..\..\base\sources\backends/direct3d12_gpu.h(10,6): warning : forward references to 'enum' types are a Microsoft extension [-Wmicrosoft-enum-forward-reference]
+C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c(591,20): warning : incompatible pointer types initializing 'char_ptr_array_t *' (aka 'struct char_ptr_array *') with an expression of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c(648,18): warning : incompatible pointer types passing 'int64_t **' (aka 'long long **') to parameter of type 'int64_t *' (aka 'long long *'); remove & [-Wincompatible-pointer-types]
+  ..\..\base\sources\libs\quickjs.h(751,51): note: passing argument to parameter 'pres' here
+C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c(717,17): warning : incompatible pointer types passing 'char_ptr_array_t *' (aka 'struct char_ptr_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c(724,15): warning : incompatible pointer types passing 'char_ptr_array_t *' (aka 'struct char_ptr_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(88,32): note: passing argument to parameter 'ar' here
+C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c(736,17): warning : incompatible pointer types passing 'char_ptr_array_t *' (aka 'struct char_ptr_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(69,34): note: passing argument to parameter 'a' here
+C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c(743,15): warning : incompatible pointer types passing 'char_ptr_array_t *' (aka 'struct char_ptr_array *') to parameter of type 'any_array_t *' (aka 'struct any_array *') [-Wincompatible-pointer-types]
+  ..\..\base\sources\iron_array.h(88,32): note: passing argument to parameter 'ar' here
+  ArmorPaint.vcxproj -> C:\Users\oneui\Documents\armortools\armorpaint\build\x64\Release\ArmorPaint.exe

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug|x64">
+			<Configuration>Debug</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Develop|x64">
+			<Configuration>Develop</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Release|x64">
+			<Configuration>Release</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{1985BAFA-CA20-4000-87D6-87CC649B9200}</ProjectGuid>
+		<VCProjectVersion>16.0</VCProjectVersion>
+		<WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<UseDebugLibraries>true</UseDebugLibraries>
+		<PlatformToolset>ClangCL</PlatformToolset>
+		<PreferredToolArchitecture>x64</PreferredToolArchitecture>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Develop'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<UseDebugLibraries>true</UseDebugLibraries>
+		<PlatformToolset>ClangCL</PlatformToolset>
+		<PreferredToolArchitecture>x64</PreferredToolArchitecture>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)'=='Release'" Label="Configuration">
+		<ConfigurationType>Application</ConfigurationType>
+		<UseDebugLibraries>false</UseDebugLibraries>
+		<PlatformToolset>ClangCL</PlatformToolset>
+		<PreferredToolArchitecture>x64</PreferredToolArchitecture>
+		<WholeProgramOptimization>true</WholeProgramOptimization>
+		<CharacterSet>Unicode</CharacterSet>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings">
+		<Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+	</ImportGroup>
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Label="PropertySheets" Condition="'$(Platform)'=='x64'">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+		<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+			<ClCompile>
+				<AdditionalIncludeDirectories>..\..\base\sources;..\..\base\sources\libs</AdditionalIncludeDirectories>
+				<AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+				<WarningLevel>Level3</WarningLevel>
+				<Optimization>Disabled</Optimization>
+				<PreprocessorDefinitions>_DEBUG;is_paint;IDLE_SLEEP;WITH_KONG;_CRT_SECURE_NO_WARNINGS;WITH_PLUGINS;TINYUSDZ_NO_STB_IMAGE_IMPLEMENTATION;arm_physics;BACKEND_SYS_H="backends/windows_system.h";BACKEND_NET_H="backends/windows_net.h";BACKEND_THREAD_H="backends/windows_thread.h";BACKEND_GPU_H="backends/direct3d12_gpu.h";_WINSOCK_DEPRECATED_NO_WARNINGS;IRON_DIRECT3D12;IRON_C_PATH="C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c";EMBED_H_PATH="C:\Users\oneui\Documents\armortools\armorpaint/build/embed.h";WITH_EVAL;QJS_BUILD_LIBC;WITH_IRON;WITH_D3DCOMPILER;WITH_NFD;WITH_COMPRESS;WITH_IMAGE_WRITE;arm_direct3d12;arm_windows;SYS_64;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+				<RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+				<MultiProcessorCompilation>true</MultiProcessorCompilation>
+				<MinimalRebuild>false</MinimalRebuild>
+				<LanguageStandard_C>stdc11</LanguageStandard_C>
+				<LanguageStandard>stdcpp17</LanguageStandard>
+			</ClCompile>
+			<Link>
+				<SubSystem>Windows</SubSystem>
+				<GenerateDebugInformation>true</GenerateDebugInformation>
+				<AdditionalDependencies>d3dcompiler.lib;dxguid.lib;dsound.lib;dinput8.lib;ws2_32.lib;Winhttp.lib;wbemuuid.lib;dxgi.lib;d3d12.lib;Dbghelp.lib;Dwmapi.lib;d3d11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			</Link>
+			<Manifest>
+				<EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+			</Manifest>
+		</ItemDefinitionGroup>
+		<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Develop|x64'">
+			<ClCompile>
+				<AdditionalIncludeDirectories>..\..\base\sources;..\..\base\sources\libs</AdditionalIncludeDirectories>
+				<AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+				<WarningLevel>Level3</WarningLevel>
+				<Optimization>Full</Optimization>
+				<PreprocessorDefinitions>_DEBUG;is_paint;IDLE_SLEEP;WITH_KONG;_CRT_SECURE_NO_WARNINGS;WITH_PLUGINS;TINYUSDZ_NO_STB_IMAGE_IMPLEMENTATION;arm_physics;BACKEND_SYS_H="backends/windows_system.h";BACKEND_NET_H="backends/windows_net.h";BACKEND_THREAD_H="backends/windows_thread.h";BACKEND_GPU_H="backends/direct3d12_gpu.h";_WINSOCK_DEPRECATED_NO_WARNINGS;IRON_DIRECT3D12;IRON_C_PATH="C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c";EMBED_H_PATH="C:\Users\oneui\Documents\armortools\armorpaint/build/embed.h";WITH_EVAL;QJS_BUILD_LIBC;WITH_IRON;WITH_D3DCOMPILER;WITH_NFD;WITH_COMPRESS;WITH_IMAGE_WRITE;arm_direct3d12;arm_windows;SYS_64;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+				<RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+				<MultiProcessorCompilation>true</MultiProcessorCompilation>
+				<MinimalRebuild>false</MinimalRebuild>
+				<BasicRuntimeChecks>Default</BasicRuntimeChecks>
+				<LanguageStandard_C>stdc11</LanguageStandard_C>
+				<LanguageStandard>stdcpp17</LanguageStandard>
+			</ClCompile>
+			<Link>
+				<SubSystem>Windows</SubSystem>
+				<GenerateDebugInformation>true</GenerateDebugInformation>
+				<AdditionalDependencies>d3dcompiler.lib;dxguid.lib;dsound.lib;dinput8.lib;ws2_32.lib;Winhttp.lib;wbemuuid.lib;dxgi.lib;d3d12.lib;Dbghelp.lib;Dwmapi.lib;d3d11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			</Link>
+			<Manifest>
+				<EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+			</Manifest>
+		</ItemDefinitionGroup>
+		<ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+			<ClCompile>
+				<AdditionalIncludeDirectories>..\..\base\sources;..\..\base\sources\libs</AdditionalIncludeDirectories>
+				<AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+				<WarningLevel>Level3</WarningLevel>
+				<Optimization>MaxSpeed</Optimization>
+				<FunctionLevelLinking>true</FunctionLevelLinking>
+				<IntrinsicFunctions>true</IntrinsicFunctions>
+				<PreprocessorDefinitions>NDEBUG;is_paint;IDLE_SLEEP;WITH_KONG;_CRT_SECURE_NO_WARNINGS;WITH_PLUGINS;TINYUSDZ_NO_STB_IMAGE_IMPLEMENTATION;arm_physics;BACKEND_SYS_H="backends/windows_system.h";BACKEND_NET_H="backends/windows_net.h";BACKEND_THREAD_H="backends/windows_thread.h";BACKEND_GPU_H="backends/direct3d12_gpu.h";_WINSOCK_DEPRECATED_NO_WARNINGS;IRON_DIRECT3D12;IRON_C_PATH="C:\Users\oneui\Documents\armortools\armorpaint/build/iron.c";EMBED_H_PATH="C:\Users\oneui\Documents\armortools\armorpaint/build/embed.h";WITH_EVAL;QJS_BUILD_LIBC;WITH_IRON;WITH_D3DCOMPILER;WITH_NFD;WITH_COMPRESS;WITH_IMAGE_WRITE;arm_direct3d12;arm_windows;SYS_64;WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+				<RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+				<MultiProcessorCompilation>true</MultiProcessorCompilation>
+				<MinimalRebuild>false</MinimalRebuild>
+				<LanguageStandard_C>stdc11</LanguageStandard_C>
+				<LanguageStandard>stdcpp17</LanguageStandard>
+			</ClCompile>
+			<Link>
+				<SubSystem>Windows</SubSystem>
+				<GenerateDebugInformation>true</GenerateDebugInformation>
+				<EnableCOMDATFolding>true</EnableCOMDATFolding>
+				<OptimizeReferences>true</OptimizeReferences>
+				<AdditionalDependencies>d3dcompiler.lib;dxguid.lib;dsound.lib;dinput8.lib;ws2_32.lib;Winhttp.lib;wbemuuid.lib;dxgi.lib;d3d12.lib;Dbghelp.lib;Dwmapi.lib;d3d11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+			</Link>
+			<Manifest>
+				<EnableDpiAwareness>PerMonitorHighDPIAware</EnableDpiAwareness>
+			</Manifest>
+		</ItemDefinitionGroup>
+	<ItemGroup>
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_thread.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/ufbx/ufbx.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_svg/nanosvg.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_svg/nanosvgrast.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/integerCoding.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/external/stb_image.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.h" />
+		<ClInclude Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.h" />
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/const_data.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_armpack.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_array.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_audio.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_draw.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_file.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_gc.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_gpu.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_json.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_map.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_mat3.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_mat4.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_math.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_obj.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_quat.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_string.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_system.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_ui.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_ui_nodes.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_vec2.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_vec3.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/iron_vec4.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/direct3d12_gpu.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_net.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_system.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/backends/windows_thread.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/asim.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/gc.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/nfd.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/quickjs-amalgam.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/analyzer.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/compiler.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/dir.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/disasm.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/errors.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/functions.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/globals.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/kong.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/log.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/names.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/parser.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/sets.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/tokenizer.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/transformer.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/typer.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/types.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cpu.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/cstyle.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/d3d11.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/glsl.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/hlsl.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/metal.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/spirv.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/util.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/backends/wgsl.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/sources/libs/kong/libs/stb_ds.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/plugins.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/io_fbx.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_fbx/ufbx/ufbx.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_gltf/cgltf.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_svg/nanosvg.c" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/io_usd.cc" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/integerCoding.cpp" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/lz4-compression.cc" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/tinyusdz.cc" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/armorpaint/plugins/proc_xatlas/xatlas.cpp" />
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/plugins/plugins.c">
+			<ObjectFileName>$(IntDir)\plugins_.obj</ObjectFileName>
+		</ClCompile>
+		<ClCompile Include="C:/Users/oneui/Documents/armortools/base/plugins/plugin_api.c" />
+	</ItemGroup>
+	<ItemGroup>
+	</ItemGroup>
+	<ItemGroup>
+</ItemGroup>
+	<ItemGroup>
+		<None Include="icon.ico" />
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="resources.rc" />
+	</ItemGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+		<Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>
+	</ImportGroup>
+</Project>
